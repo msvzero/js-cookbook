@@ -5,7 +5,7 @@ export const main = async () => {
     console.log(`After task`);
 }
 
-const getRandomNumber = () => { 
+const getRandomNumber = async() => { 
     return Math.random()
 }
 
