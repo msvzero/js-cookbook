@@ -15,3 +15,15 @@ export const main = () => {
         console.log(props, value)
     }
 }
+
+/* 
+Object.entries returns what is known as an iterable. 
+These lists can be traversed with for-of loops. The items in this iterable 
+are pairs of property names and values.  The props are foo and bar, while t
+he value entries are their corresponding values for those props.
+
+The syntax [prop, value] destructures this pair into individual variables 
+that are then logged out. Alternatively, we could reference the entry prop 
+and value as the zero and 1 index of an array, but the destructured syntax 
+is a little more direct.
+*/
